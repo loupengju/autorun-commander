@@ -8,11 +8,6 @@
 - 自动打开终端并执行命令。
 - 支持自定义配置以启用或禁用 CodeLens。
 
-示例：
-\!\[CodeLens 示例\]\(images/codelens-example.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
 ## Requirements
 
 - VS Code 版本 >= 1.70.0
