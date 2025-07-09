@@ -1,57 +1,47 @@
 # autorun-commander README
 
-This is the README for your extension "autorun-commander". After writing up a brief description, we recommend including the following sections.
+"autorun-commander" 是一个 VS Code 扩展，用于自动运行命令行脚本。它通过 CodeLens 提供便捷的运行按钮，帮助开发者快速执行命令。
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- 在支持的文件类型中显示 CodeLens 按钮，直接运行命令。
+- 自动打开终端并执行命令。
+- 支持自定义配置以启用或禁用 CodeLens。
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
+示例：
+\!\[CodeLens 示例\]\(images/codelens-example.png\)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- VS Code 版本 >= 1.70.0
+- 文件语言类型需设置为 `commander`
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+此扩展提供以下设置：
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `autorun-commander.enableCodeLens`: 启用/禁用 CodeLens 功能，默认值为 `true`。
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- 目前仅支持单行命令的运行。
+- 不支持复杂的多行脚本。
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- 初始版本发布。
+- 添加 CodeLens 支持。
+- 支持运行命令功能。
 
 ---
 
 ## Following extension guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+确保遵循扩展开发的最佳实践：
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
@@ -59,6 +49,16 @@ Ensure that you've read through the extensions guidelines and follow the best pr
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+
+## For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**
 * Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
 * Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
 * Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
