@@ -12,6 +12,10 @@
   "activationEvents": [
     "onLanguage:commander"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loupengju/autorun-commander"
+  },
   "main": "./dist/extension.js",
   "contributes": {
     "languages": [
