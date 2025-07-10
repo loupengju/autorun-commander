@@ -1,40 +1,43 @@
 # autorun-commander README
 
-"autorun-commander" 是一个 VS Code 扩展，用于自动运行命令行脚本。它通过 CodeLens 提供便捷的运行按钮，帮助开发者快速执行命令。
+"autorun-commander" is a VS Code extension designed to automatically run command-line scripts. It provides convenient run buttons via CodeLens, helping developers quickly execute commands.
 
 ![72373893-a270-458a-bd36-5ad321eae756](https://github.com/user-attachments/assets/75da799b-917b-4abb-8e18-935a4f0ed6f2)
 
-
 ## Features
 
-- 在后缀为.commander的文件中，直接运行命令。
-- 自动打开终端并执行命令。
-- 支持自定义配置以启用或禁用 CodeLens。
+- Directly run commands in files with the .commander suffix
+- Automatically opens the terminal and executes commands
+- Supports custom configuration to enable/disable CodeLens
 
 ## Requirements
 
-- VS Code 版本 >= 1.70.0
-- 文件语言类型需设置为 `commander`
+- VS Code version >= 1.70.0
+- File language type must be set to `commander`
 
 ## Extension Settings
 
-此扩展提供以下设置：
+This extension offers the following settings:
 
-* `autorun-commander.enableCodeLens`: 启用/禁用 CodeLens 功能，默认值为 `true`。
+* `autorun-commander.enableCodeLens`: Enable/disable CodeLens feature, default value is `true`.
 
 ## Known Issues
 
-- 目前仅支持单行命令的运行。
-- 不支持复杂的多行脚本。
+- Currently only supports running single-line commands
+- Does not support complex multi-line scripts
 
 ## Release Notes
 
+### 0.0.3
+- Add Change Log
+- Updated README with more detailed information
+
+### 0.0.2
+
+- Updated logo and description.
+
 ### 0.0.1
 
-- 更新logo和描述。
-
-### 0.0.1
-
-- 初始版本发布。
-- 添加 CodeLens 支持。
-- 支持运行命令功能。
+- Initial version released.
+- Added CodeLens support.
+- Implemented command execution functionality.
