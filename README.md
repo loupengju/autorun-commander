@@ -2,6 +2,9 @@
 
 "autorun-commander" 是一个 VS Code 扩展，用于自动运行命令行脚本。它通过 CodeLens 提供便捷的运行按钮，帮助开发者快速执行命令。
 
+![72373893-a270-458a-bd36-5ad321eae756](https://github.com/user-attachments/assets/75da799b-917b-4abb-8e18-935a4f0ed6f2)
+
+
 ## Features
 
 - 在后缀为.commander的文件中，直接运行命令。
