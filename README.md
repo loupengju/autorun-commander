@@ -25,19 +25,3 @@ This extension offers the following settings:
 
 - Currently only supports running single-line commands
 - Does not support complex multi-line scripts
-
-## Release Notes
-
-### 0.0.3
-- Add Change Log
-- Updated README with more detailed information
-
-### 0.0.2
-
-- Updated logo and description.
-
-### 0.0.1
-
-- Initial version released.
-- Added CodeLens support.
-- Implemented command execution functionality.
