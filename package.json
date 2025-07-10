@@ -2,7 +2,7 @@
   "name": "autorun-commander",
   "displayName": "autorun-commander",
   "description": "auto run command",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "publisher": "lpj",
   "icon": "images/logo.png",
   "license": "MIT",
